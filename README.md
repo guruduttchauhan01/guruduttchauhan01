@@ -1,8 +1,7 @@
 - 👋 Hi, I’m @guruduttchauhan01
-- 👀 I’m interested in writing codes and solving issues in projects
-- 🌱 I’m currently learning Java, Python, and AI&ML
-- 💞️ I’m looking to collaborate on with everyone
-- 📫 How to reach me guruduttchauhan01@gmail.com
+- 🎓 A junior pursuing my Bachelors in Computer Science & Engineering.
+- 💻 I am passionate about Web Dev, Machine Learning, DevOps & I enjoy learning new things.
+- 📫 Everyone can reach me via my gmail account :- guruduttchauhan01@gmail.com
 
 <!---
 guruduttchauhan01/guruduttchauhan01 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
