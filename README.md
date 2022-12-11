@@ -1,4 +1,24 @@
- <h2> Hey<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" alt="alternatetext" width="30" height="30">, I’m Guru Dutt!</h2>
+ <style>
+.wave {
+  animation-name: wave-animation; 
+  animation-duration: 2.5s;       
+  animation-iteration-count: infinite;  
+  transform-origin: 70% 70%;     
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) } 
+  100% { transform: rotate( 0.0deg) }
+}
+</style>
+ <h2> Hey<span class="wave">👋</span>, I’m Guru Dutt!</h2>
  <h4>About Me</h4>
  🎓 A junior pursuing my B.Tech Computer Science Engineering<br>
  💻 I am passionate about Web Dev, Machine Learning, DevOps & I enjoy learning new things.<br>
