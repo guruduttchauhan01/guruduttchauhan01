@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guru D. Chauhan | Contact</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="../img/code-tag-svgrepo-com.svg"
+    />
+
+    <script>
+      function sendEmail() {
+        // Get form values
+        var name = document.getElementById("name").value;
+        var subject = document.getElementById("subject").value;
+        var body = document.getElementById("body").value;
+
+        // Create the Gmail compose URL
+        var gmailLink =
+          "https://mail.google.com/mail/?view=cm&fs=1&to=" +
+          encodeURIComponent("guruduttchauhan01@gmail.com") +
+          "&su=" +
+          encodeURIComponent(subject) +
+          "&body=" +
+          encodeURIComponent("Name: " + name + "\n" + body);
+
+        // Open the Gmail compose URL in a new tab
+        window.open(gmailLink, "_blank");
+      }
+    </script>
+  </head>
+  <body>
+    <!--Create Header For the Website-->
+    <header class="header flex">
+      <nav class="header-links">
+        <ul class="header-nav-list flex">
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="./about.html">About</a>
+          </li>
+          <!-- <li>
+        <a href="#">Experience</a>
+      </li> -->
+          <li>
+            <a href="./projects.html">Projects</a>
+          </li>
+          <li>
+            <a href="./uses.html">Uses</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="section">
+        <div class="content">
+          <span class="oswald-header">Let's Connect:</span> Guru Dutt Chauhan
+          welcomes connections with fellow Java developers, Software Engineers,
+          and tech enthusiasts. Whether it's discussing coding challenges,
+          sharing insights on the latest tech trends, or exploring career
+          opportunities, he looks forward to engaging with you on LinkedIn,
+          GitHub and via Gmail.
+        </div>
+        <div class="social-logo">
+          <a
+            href="https://github.com/guruduttchauhan01"
+            class="link"
+            target="_blank"
+            ><img
+              src="../img/icons8-github.svg"
+              alt="GitHub logo"
+              class="logo-img"
+              title="GitHub"
+            />GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/guruduttchauhan01"
+            class="link"
+            target="_blank"
+            ><img
+              src="../img/icons8-linkedin.svg"
+              alt="LinkedIn logo"
+              class="logo-img"
+              title="LinkedIn"
+            />LinkedIn</a
+          >
+        </div>
+      </section>
+      <section class="form">
+        <form onsubmit="sendEmail(); return false;">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name..."
+            required
+          />
+
+          <label for="subject">Subject:</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Mail Subject..."
+            required
+          />
+
+          <label for="body">Message:</label>
+          <textarea
+            id="body"
+            name="body"
+            placeholder="Enter your message..."
+            required
+          ></textarea>
+
+          <input type="submit" value="Send Email" />
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <h4 class="trademark flex">Made by Guru D. Chauhan</h4>
+    </footer>
+  </body>
+</html>

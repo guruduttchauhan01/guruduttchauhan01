@@ -1,0 +1,87 @@
+.main {
+  padding: 4.8rem 3.2rem 7.6rem 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.content .oswald-header {
+  display: block;
+  color: #e4c46a;
+}
+
+.social-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.logo-img {
+  max-width: 4rem;
+}
+
+.social-logo a:link,
+.social-logo a:visited,
+.social-logo a:hover,
+.social-logo a:active {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+label {
+  display: block;
+  margin: 0.8rem 0;
+}
+
+input[type="text"],
+select {
+  width: 80%;
+  margin-bottom: 0.8rem;
+  padding: 1rem 2rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 80%;
+  background-color: #e4c46a;
+  margin: 0.8rem 0;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+textarea {
+  width: 80%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}

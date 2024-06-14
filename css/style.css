@@ -1,0 +1,132 @@
+.profile {
+  border-radius: 2rem;
+  /* justify-self: center; */
+  width: 85%;
+}
+
+.intro {
+  padding: 4.8rem 3.2rem 9.6rem 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.intro-content-container {
+  max-width: 70rem;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  gap: 1rem;
+}
+
+.primary-heading {
+  font-size: 4.4rem;
+  letter-spacing: 0.05px;
+  line-height: 1;
+  margin-bottom: 2.4rem;
+}
+
+.content span {
+  color: #e4c46a;
+}
+
+.social-logo {
+  justify-content: start;
+  gap: 2rem;
+}
+
+.logo-img {
+  max-width: 4rem;
+}
+
+.resume-btn {
+  background-color: #e4c46a;
+  padding: 1rem 3rem;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+
+.resume-btn:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.featured {
+  padding-bottom: 9.6rem;
+  display: grid;
+  justify-content: center;
+  row-gap: 3.2rem;
+  font-size: 1.8rem;
+}
+
+.featured-container {
+  max-width: 120rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.feature-box {
+  text-align: center;
+  border: 2px solid #e4c46a;
+  padding: 2rem;
+  line-height: 1.5;
+}
+
+.feature-logo {
+  aspect-ratio: 3/2;
+  max-width: 10rem;
+}
+
+.feature-box h3 {
+  font-size: 2.4rem;
+  padding: 2rem;
+  padding-top: 0;
+}
+
+.feature-btn {
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  background-color: #e4c46a;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.feature-btn:hover {
+  background-color: #f7e5b4;
+}
+
+.feature-btn a:link,
+.feature-btn a:visited {
+  color: #191919;
+  font-weight: 600;
+}
+
+.feature-btn a:hover,
+.feature-btn a:active {
+  color: black;
+}
+
+.skills {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.skills-container {
+  background-color: #4b4b4b;
+  padding: 4.8rem 3.2rem;
+}
+
+.skills-logo {
+  aspect-ratio: 3/2;
+  max-width: 10rem;
+}
